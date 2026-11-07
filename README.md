@@ -1,23 +1,87 @@
+<div align="center">
+
 # Logic Gates Learning Board V1.0
 
+**OLITECH · Carte pédagogique d'électronique numérique**
+
+![Project stage](https://img.shields.io/badge/Project-Design%20stage-orange)
+![CAD](https://img.shields.io/badge/CAD-KiCad-blue)
+![Languages](https://img.shields.io/badge/README-FR%20%7C%20EN-informational)
+
+*Learn digital logic by experimenting with fundamental logic gates.*
+
+</div>
+
+---
+
 **Brand / Marque:** OLITECH  
-**Designer / Concepteur :** OLI OLI DONALD  
-**Country / Pays :** Cameroon / Cameroun  
-**Design software / Logiciel de conception :** KiCad  
-**Contact:** oliolidonald186@gmail.com
+**Designer / Concepteur:** OLI OLI DONALD  
+**Country / Pays:** Cameroon / Cameroun  
+**Design software / Logiciel de conception:** KiCad  
+**Contact:** [oliolidonald186@gmail.com](mailto:oliolidonald186@gmail.com)
+
+## Table of contents
+
+- [Français](#-français)
+  - [Présentation](#présentation)
+  - [Objectifs pédagogiques](#objectifs-pédagogiques)
+  - [Portes logiques étudiées](#portes-logiques-étudiées)
+  - [Circuits intégrés envisagés](#circuits-intégrés-envisagés)
+  - [Galerie du projet](#galerie-du-projet)
+  - [État et limites du projet](#état-et-limites-du-projet)
+- [English](#-english)
+  - [Overview](#overview)
+  - [Learning objectives](#learning-objectives)
+  - [Logic gates covered](#logic-gates-covered)
+  - [Planned integrated circuits](#planned-integrated-circuits)
+  - [Project gallery](#project-gallery)
+  - [Project status and limitations](#project-status-and-limitations)
+- [Contact](#contact)
 
 ---
 
 ## 🇫🇷 Français
 
 ### Présentation
-**Logic Gates Learning Board V1.0** est une carte électronique pédagogique conçue avec KiCad pour faciliter l'apprentissage et l'expérimentation des portes logiques fondamentales.
 
-Le projet vise à fournir une plateforme pratique permettant aux étudiants et aux passionnés d'électronique numérique d'étudier le fonctionnement des circuits logiques.
+**Logic Gates Learning Board V1.0** est une carte électronique pédagogique conçue sous **KiCad** pour faciliter l'apprentissage et l'expérimentation des portes logiques fondamentales.
+
+Le projet vise à offrir aux étudiants et aux passionnés d'électronique une plateforme pratique pour découvrir les fonctions logiques, observer leurs comportements et renforcer les notions d'électronique numérique.
+
+### Objectifs pédagogiques
+
+- Découvrir les fonctions des principales portes logiques.
+- Comprendre les relations entre les entrées logiques et les sorties.
+- Expérimenter les fonctions combinatoires de base.
+- Faire le lien entre les notions théoriques et la conception électronique.
+
+### Portes logiques étudiées
+
+| Porte logique | Fonction |
+|---|---|
+| NOT (NON) | Inversion logique |
+| BUFFER (tampon) | Reproduction de l'état logique |
+| AND (ET) | Sortie active si toutes les entrées sont actives |
+| OR (OU) | Sortie active si au moins une entrée est active |
+| NAND (NON-ET) | Inverse de la fonction AND |
+| NOR (NON-OU) | Inverse de la fonction OR |
+| XOR (OU exclusif) | Sortie active si les entrées sont différentes |
+| XNOR (NON-OU exclusif) | Sortie active si les entrées sont identiques |
+
+### Circuits intégrés envisagés
+
+| Référence | Fonction principale |
+|---|---|
+| CD4011 | Portes NAND |
+| CD4071 | Portes OR |
+| CD4081 | Portes AND |
+| CD4070 | Portes XOR |
+
+Ces références correspondent aux circuits intégrés envisagés dans la conception. La liste ne constitue pas une nomenclature finale de fabrication.
 
 ### Galerie du projet
 
-Les images ci-dessous présentent différentes vues de la conception de la carte réalisée sous KiCad. Elles illustrent le travail de conception et de visualisation du PCB ; elles ne représentent pas une carte physiquement fabriquée.
+Les images suivantes présentent différentes vues de la conception réalisée sous KiCad. Elles illustrent le travail de conception et de visualisation du PCB ; elles ne représentent pas une carte physiquement fabriquée.
 
 | Vue | Aperçu |
 |---|---|
@@ -28,46 +92,66 @@ Les images ci-dessous présentent différentes vues de la conception de la carte
 | Vue de conception 5 | ![Vue de conception 5](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.jpg) |
 | Vue de conception 6 | ![Vue de conception 6](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.png) |
 
-### Portes logiques étudiées
-- NOT (NON)
-- BUFFER (tampon)
-- AND (ET)
-- OR (OU)
-- NAND (NON-ET)
-- NOR (NON-OU)
-- XOR (OU exclusif)
-- XNOR (NON-OU exclusif)
+### État et limites du projet
 
-### Circuits intégrés envisagés
-- CD4011 : portes NAND
-- CD4071 : portes OR
-- CD4081 : portes AND
-- CD4070 : portes XOR
+| Élément | État |
+|---|---|
+| Conception électronique | Réalisée |
+| Routage du circuit imprimé (PCB) | Réalisé |
+| Visualisation 3D sous KiCad | Réalisée |
+| Fabrication physique | Non réalisée |
+| Essais sur prototype physique | À effectuer |
 
-### État d'avancement
-- Conception électronique : réalisée
-- Routage du circuit imprimé (PCB) : réalisé
-- Visualisation 3D sous KiCad : réalisée
-- Fabrication physique : non réalisée
-- Tests sur prototype physique : à effectuer
-
-> **Important :** cette carte est actuellement au stade de conception numérique. Elle n'a pas encore été fabriquée ni testée physiquement. Les images de la galerie représentent la conception KiCad et ses visualisations, et non un prototype fabriqué.
+> **Important :** le projet est actuellement au stade de conception numérique. La carte n'a pas encore été fabriquée ni testée physiquement. Les images de la galerie montrent la conception KiCad et ses visualisations, et non un prototype fabriqué.
 
 ### Fichiers du projet
-Les fichiers sources du projet KiCad (schéma et PCB) ne sont volontairement pas publiés dans ce dépôt.
+
+Les fichiers sources KiCad (schéma et circuit imprimé) ne sont volontairement pas publiés dans ce dépôt.
 
 ---
 
 ## 🇬🇧 English
 
 ### Overview
-**Logic Gates Learning Board V1.0** is an educational electronic board designed with KiCad to support learning and experimentation with fundamental logic gates.
 
-The project aims to provide a practical platform for students and electronics enthusiasts to explore the operation of digital logic circuits.
+**Logic Gates Learning Board V1.0** is an educational electronic board designed in **KiCad** to support learning and experimentation with fundamental logic gates.
+
+The project aims to provide students and electronics enthusiasts with a practical platform to explore logic functions, observe their behavior, and strengthen their understanding of digital electronics.
+
+### Learning objectives
+
+- Discover the functions of the main logic gates.
+- Understand the relationship between logic inputs and outputs.
+- Experiment with basic combinational logic functions.
+- Connect theoretical concepts with electronic design.
+
+### Logic gates covered
+
+| Logic gate | Function |
+|---|---|
+| NOT | Logical inversion |
+| BUFFER | Repeats the input logic state |
+| AND | Output is active when all inputs are active |
+| OR | Output is active when at least one input is active |
+| NAND | Inverse of the AND function |
+| NOR | Inverse of the OR function |
+| XOR | Output is active when inputs differ |
+| XNOR | Output is active when inputs are identical |
+
+### Planned integrated circuits
+
+| Part number | Main function |
+|---|---|
+| CD4011 | NAND gates |
+| CD4071 | OR gates |
+| CD4081 | AND gates |
+| CD4070 | XOR gates |
+
+These are the integrated circuits considered during the design stage. This list is not a final manufacturing bill of materials.
 
 ### Project gallery
 
-The images below show different views of the board designed in KiCad. They document the PCB design and visualization process; they do not show a physically manufactured board.
+The following images show different views of the KiCad design. They document the PCB design and visualization process; they do not show a physically manufactured board.
 
 | View | Preview |
 |---|---|
@@ -78,34 +162,28 @@ The images below show different views of the board designed in KiCad. They docum
 | Design view 5 | ![Design view 5](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.jpg) |
 | Design view 6 | ![Design view 6](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.png) |
 
-### Logic gates covered
-- NOT
-- BUFFER
-- AND
-- OR
-- NAND
-- NOR
-- XOR
-- XNOR
+### Project status and limitations
 
-### Planned integrated circuits
-- CD4011: NAND gates
-- CD4071: OR gates
-- CD4081: AND gates
-- CD4070: XOR gates
-
-### Project status
-- Electronic design: completed
-- PCB layout and routing: completed
-- KiCad 3D visualization: completed
-- Physical manufacturing: not completed
-- Physical prototype testing: pending
+| Item | Status |
+|---|---|
+| Electronic design | Completed |
+| PCB layout and routing | Completed |
+| KiCad 3D visualization | Completed |
+| Physical manufacturing | Not completed |
+| Physical prototype testing | Pending |
 
 > **Important:** this project is currently at the digital design stage. The board has not yet been manufactured or physically tested. The gallery images show the KiCad design and its visualizations, not a manufactured prototype.
 
 ### Project files
+
 The KiCad source files (schematic and PCB layout) are intentionally not published in this repository.
 
 ---
 
-**OLITECH — Learning digital electronics through practice.**
+## Contact
+
+**OLI OLI DONALD · OLITECH**  
+Cameroon  
+Email: [oliolidonald186@gmail.com](mailto:oliolidonald186@gmail.com)
+
+*OLITECH — Learning digital electronics through practice.*
