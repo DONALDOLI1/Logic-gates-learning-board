@@ -83,8 +83,6 @@ Le schéma électronique et la face composants identifient quatre circuits inté
 | CD4081 | Portes AND |
 | CD4070 | Portes XOR |
 
-Les fonctions NOT, BUFFER, NOR et XNOR figurent également sur le panneau pédagogique. Les documents fournis ne permettent pas d'établir à eux seuls le détail complet de leur réalisation interne ni de confirmer une nomenclature exhaustive de fabrication.
-
 ### Liste des composants électroniques
 
 La nomenclature ci-dessous est établie à partir des références visibles sur le schéma électronique et de la sérigraphie de la face composants.
@@ -105,12 +103,6 @@ La nomenclature ci-dessous est établie à partir des références visibles sur 
 
 **Quantités identifiées :** 4 circuits intégrés, 23 résistances, 23 LED, 5 condensateurs, 1 commutateur DIP, 1 interrupteur à bascule et 41 repères de connecteurs.
 
-**Remarques de nomenclature :**
-- Les résistances R1 à R23 sont indiquées à 1 kΩ sur le schéma.
-- Le condensateur C5 est explicitement noté 10 µF / 16 V. Les valeurs de C1 à C4 ne sont pas indiquées.
-- Les références des circuits intégrés sont lisibles sur le schéma et reprises sur la face composants.
-- Les couleurs des LED, les références commerciales des connecteurs et les caractéristiques détaillées de SW2 ne sont pas spécifiées dans les documents fournis.
-- Cette nomenclature reprend les composants et repères visibles dans les documents ; elle ne remplace pas une vérification finale avant achat ou assemblage.
 
 ### Organisation matérielle
 
@@ -208,8 +200,6 @@ The schematic and component-side drawing identify four CMOS logic integrated cir
 | CD4081 | AND gates |
 | CD4070 | XOR gates |
 
-The NOT, BUFFER, NOR and XNOR functions are also displayed on the educational panel. The supplied documents alone do not establish their complete internal implementation or confirm an exhaustive manufacturing bill of materials.
-
 ### Electronic components list
 
 The following bill of materials is compiled from the component references visible in the electronic schematic and the component-side drawing.
@@ -230,12 +220,6 @@ The following bill of materials is compiled from the component references visibl
 
 **Identified quantities:** 4 integrated circuits, 23 resistors, 23 LEDs, 5 capacitors, 1 DIP switch, 1 toggle switch and 41 connector designators.
 
-**Bill of materials notes:**
-- Resistors R1 to R23 are marked 1 kΩ in the schematic.
-- Capacitor C5 is explicitly marked 10 µF / 16 V. Values for C1 to C4 are not shown.
-- Integrated-circuit part numbers are legible in the schematic and repeated on the component-side drawing.
-- LED colours, connector commercial part numbers and detailed SW2 electrical ratings are not specified in the supplied documents.
-- This list reflects the visible component references in the supplied design documents; it should not replace a final verification before purchasing or assembly.
 
 ### Hardware organization
 
