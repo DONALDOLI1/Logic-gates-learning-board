@@ -87,7 +87,7 @@ Les fonctions NOT, BUFFER, NOR et XNOR figurent également sur le panneau pédag
 
 ### Liste des composants électroniques
 
-La nomenclature ci-dessous est établie à partir des références visibles sur le schéma électronique et de la sérigraphie de la face composants.
+La nomenclature ci-dessous est établie à partir des références sur le schéma électronique et de la sérigraphie de la face composants.
 
 | Désignation | Références | Quantité | Caractéristiques indiquées |
 |---|---:|---:|---|
@@ -212,7 +212,7 @@ The NOT, BUFFER, NOR and XNOR functions are also displayed on the educational pa
 
 ### Electronic components list
 
-The following bill of materials is compiled from the component references visible in the electronic schematic and the component-side drawing.
+The following bill of materials is compiled from the component references in the electronic schematic and the component-side drawing.
 
 | Description | References | Quantity | Specified characteristics |
 |---|---:|---:|---|
