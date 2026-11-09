@@ -105,11 +105,6 @@ La nomenclature ci-dessous est établie à partir des références sur le schém
 
 **Quantités identifiées :** 4 circuits intégrés, 23 résistances, 23 LED, 5 condensateurs, 1 commutateur DIP, 1 interrupteur à bascule et 41 repères de connecteurs.
 
-- Les résistances R1 à R23 sont indiquées à 1 kΩ sur le schéma.
-- Le condensateur C5 est explicitement noté 10 µF / 16 V. Les valeurs de C1 à C4 ne sont pas indiquées.
-- Les références des circuits intégrés sont lisibles sur le schéma et reprises sur la face composants.
-- Les couleurs des LED, les références commerciales des connecteurs et les caractéristiques détaillées de SW2 ne sont pas spécifiées dans les documents fournis.
-- Cette nomenclature reprend les composants et repères visibles dans les documents ; elle ne remplace pas une vérification finale avant achat ou assemblage.
 
 
 ### Organisation matérielle
@@ -230,11 +225,6 @@ The following bill of materials is compiled from the component references in the
 
 **Identified quantities:** 4 integrated circuits, 23 resistors, 23 LEDs, 5 capacitors, 1 DIP switch, 1 toggle switch and 41 connector designators.
 
-- Resistors R1 to R23 are marked 1 kΩ in the schematic.
-- Capacitor C5 is explicitly marked 10 µF / 16 V. Values for C1 to C4 are not shown.
-- Integrated-circuit part numbers are legible in the schematic and repeated on the component-side drawing.
-- LED colours, connector commercial part numbers and detailed SW2 electrical ratings are not specified in the supplied documents.
-- This list reflects the visible component references in the supplied design documents; it should not replace a final verification before purchasing or assembly.
 
 
 ### Hardware organization
