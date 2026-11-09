@@ -26,7 +26,8 @@
   - [Présentation](#présentation)
   - [Objectifs pédagogiques](#objectifs-pédagogiques)
   - [Portes logiques étudiées](#portes-logiques-étudiées)
-  - [Circuits intégrés envisagés](#circuits-intégrés-envisagés)
+  - [Circuits intégrés identifiés](#circuits-intégrés-identifiés)
+  - [Organisation matérielle](#organisation-matérielle)
   - [Galerie du projet](#galerie-du-projet)
   - [Documents techniques](#documents-techniques)
   - [État et limites du projet](#état-et-limites-du-projet)
@@ -34,7 +35,8 @@
   - [Overview](#overview)
   - [Learning objectives](#learning-objectives)
   - [Logic gates covered](#logic-gates-covered)
-  - [Planned integrated circuits](#planned-integrated-circuits)
+  - [Identified integrated circuits](#identified-integrated-circuits)
+  - [Hardware organization](#hardware-organization)
   - [Project gallery](#project-gallery)
   - [Technical documents](#technical-documents)
   - [Project status and limitations](#project-status-and-limitations)
@@ -70,17 +72,34 @@ Le projet vise à offrir aux étudiants et aux passionnés d'électronique une p
 | XOR (OU exclusif) | Sortie active si les entrées sont différentes |
 | XNOR (NON-OU exclusif) | Sortie active si les entrées sont identiques |
 
-### Circuits intégrés envisagés
+### Circuits intégrés identifiés
 
-| Référence | Fonction principale |
+Le schéma électronique et la face composants identifient quatre circuits intégrés de la famille logique CMOS :
+
+| Référence | Fonction représentée |
 |---|---|
 | CD4011 | Portes NAND |
 | CD4071 | Portes OR |
 | CD4081 | Portes AND |
 | CD4070 | Portes XOR |
 
-Ces références correspondent aux circuits intégrés envisagés dans la conception. La liste ne constitue pas une nomenclature finale de fabrication.
+Les fonctions NOT, BUFFER, NOR et XNOR figurent également sur le panneau pédagogique. Les documents fournis ne permettent pas d'établir à eux seuls le détail complet de leur réalisation interne ni de confirmer une nomenclature exhaustive de fabrication.
 
+### Organisation matérielle
+
+La face composants présente une organisation pédagogique en blocs :
+
+- **Entrées logiques :** un commutateur DIP à 10 positions permet de configurer les états d'entrée.
+- **Zones de manipulation :** les fonctions NOT, BUFFER, AND, OR, NAND, NOR, XOR et XNOR sont repérées et séparées sur la carte.
+- **Visualisation :** des LED associées à des résistances permettent d'observer les états logiques, avec une LED dédiée à l'indication d'alimentation.
+- **Alimentation :** le dessin identifie les connexions VCC et GND ainsi qu'un condensateur repéré C5.
+- **Circuits intégrés :** les emplacements U1 à U4 sont associés aux références CD4071, CD4070, CD4011 et CD4081.
+
+Le panneau porte également l'identité OLITECH, la mention « Made in Cameroon » et le slogan « Learn – Understand – Undertake ».
+
+### Circuit imprimé
+
+Les typons TOP COPPER et BOTTOM COPPER documentent les deux faces de cuivre du PCB. Les dessins montrent le cheminement des pistes, les pastilles de composants et quatre trous de fixation situés aux coins de la carte. La présence de ces deux typons documente un routage sur deux faces ; elle ne constitue pas une preuve de fabrication physique.
 ### Galerie du projet
 
 Les images suivantes présentent différentes vues de la conception réalisée sous KiCad. Elles illustrent le travail de conception et de visualisation du PCB ; elles ne représentent pas une carte physiquement fabriquée.
@@ -151,17 +170,34 @@ The project aims to provide students and electronics enthusiasts with a practica
 | XOR | Output is active when inputs differ |
 | XNOR | Output is active when inputs are identical |
 
-### Planned integrated circuits
+### Identified integrated circuits
 
-| Part number | Main function |
+The schematic and component-side drawing identify four CMOS logic integrated circuits:
+
+| Part number | Function shown |
 |---|---|
 | CD4011 | NAND gates |
 | CD4071 | OR gates |
 | CD4081 | AND gates |
 | CD4070 | XOR gates |
 
-These are the integrated circuits considered during the design stage. This list is not a final manufacturing bill of materials.
+The NOT, BUFFER, NOR and XNOR functions are also displayed on the educational panel. The supplied documents alone do not establish their complete internal implementation or confirm an exhaustive manufacturing bill of materials.
 
+### Hardware organization
+
+The component-side drawing shows the board arranged into educational sections:
+
+- **Logic inputs:** a 10-position DIP switch is provided to configure input states.
+- **Experiment areas:** NOT, BUFFER, AND, OR, NAND, NOR, XOR and XNOR functions are individually labelled.
+- **Visual feedback:** LEDs with associated resistors allow logic states to be observed, with a dedicated power-indicator LED.
+- **Power:** VCC and GND connections are identified, together with a capacitor marked C5.
+- **Integrated circuits:** footprints U1 to U4 are associated with the CD4071, CD4070, CD4011 and CD4081 references.
+
+The panel also displays the OLITECH identity, the “Made in Cameroon” mark and the “Learn – Understand – Undertake” slogan.
+
+### Printed circuit board
+
+The TOP COPPER and BOTTOM COPPER artwork documents both copper sides of the PCB. The drawings show track routing, component pads and four mounting holes located at the board corners. These two artwork files document a two-sided routing design; they do not prove that the board has been physically manufactured.
 ### Project gallery
 
 The following images show different views of the KiCad design. They document the PCB design and visualization process; they do not show a physically manufactured board.
