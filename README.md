@@ -72,56 +72,17 @@ Le projet vise à offrir aux étudiants et aux passionnés d'électronique une p
 | XOR (OU exclusif) | Sortie active si les entrées sont différentes |
 | XNOR (NON-OU exclusif) | Sortie active si les entrées sont identiques |
 
-### Circuits intégrés identifiés
+### Circuits intégrés et composants principaux
 
-Le schéma électronique et la face composants identifient quatre circuits intégrés de la famille logique CMOS :
+La carte utilise quatre circuits intégrés CMOS : **CD4011 (NAND), CD4071 (OR), CD4081 (AND) et CD4070 (XOR)**. Les fonctions NOT, BUFFER, NOR et XNOR sont également prévues sur le panneau pédagogique.
 
-| Référence | Fonction représentée |
-|---|---|
-| CD4011 | Portes NAND |
-| CD4071 | Portes OR |
-| CD4081 | Portes AND |
-| CD4070 | Portes XOR |
-
-Les fonctions NOT, BUFFER, NOR et XNOR figurent également sur le panneau pédagogique.
-
-### Liste des composants électroniques
-
-La nomenclature ci-dessous est établie à partir des références sur le schéma électronique et de la sérigraphie de la face composants.
-
-| Désignation | Références | Quantité | Caractéristiques indiquées |
-|---|---:|---:|---|
-| Circuit intégré CMOS | U1 – CD4071 | 1 | Portes OR |
-| Circuit intégré CMOS | U2 – CD4070 | 1 | Portes XOR |
-| Circuit intégré CMOS | U3 – CD4011 | 1 | Portes NAND |
-| Circuit intégré CMOS | U4 – CD4081 | 1 | Portes AND |
-| Résistances | R1 à R23 | 23 | 1 kΩ chacune |
-| LED | D1 à D23 | 23 | LED de visualisation et indication d'alimentation ; couleurs non spécifiées |
-| Condensateurs | C1 à C4 | 4 | Valeurs non précisées sur le schéma |
-| Condensateur | C5 | 1 | 10 µF / 16 V |
-| Interrupteur DIP | SW1 | 1 | 10 positions |
-| Interrupteur à bascule | SW2 | 1 | Type et caractéristiques électriques non précisés |
-| Connecteurs | J1 à J41 | 41 repères | Connexions des entrées, sorties et de l'alimentation |
-
-**Quantités identifiées :** 4 circuits intégrés, 23 résistances, 23 LED, 5 condensateurs, 1 commutateur DIP, 1 interrupteur à bascule et 41 repères de connecteurs.
-
-
+Les autres composants principaux comprennent un commutateur DIP à 10 positions, des LED de visualisation, des résistances, des condensateurs et des connecteurs. L'alimentation est repérée **VCC / +5 V et GND** sur le schéma.
 
 ### Organisation matérielle
 
-La face composants présente une organisation pédagogique en blocs :
+La carte regroupe les huit fonctions logiques dans des zones distinctes. Le commutateur DIP permet de configurer les entrées et les LED de visualiser les états logiques.
 
-- **Entrées logiques :** un commutateur DIP à 10 positions permet de configurer les états d'entrée.
-- **Zones de manipulation :** les fonctions NOT, BUFFER, AND, OR, NAND, NOR, XOR et XNOR sont repérées et séparées sur la carte.
-- **Visualisation :** des LED associées à des résistances permettent d'observer les états logiques, avec une LED dédiée à l'indication d'alimentation.
-- **Alimentation :** le dessin identifie les connexions VCC et GND ainsi qu'un condensateur repéré C5.
-- **Circuits intégrés :** les emplacements U1 à U4 sont associés aux références CD4071, CD4070, CD4011 et CD4081.
-
-Le panneau porte également l'identité OLITECH, la mention « Made in Cameroon » et le slogan « Learn – Understand – Undertake ».
-
-### Circuit imprimé
-
-Les typons TOP COPPER et BOTTOM COPPER documentent les deux faces de cuivre du PCB. Les dessins montrent le cheminement des pistes, les pastilles de composants et quatre trous de fixation situés aux coins de la carte. La présence de ces deux typons documente un routage sur deux faces ; elle ne constitue pas une preuve de fabrication physique.
+Le PCB est conçu avec deux faces de cuivre (TOP et BOTTOM) et comporte quatre trous de fixation. Le panneau porte l'identité OLITECH, la mention « Made in Cameroon » et le slogan « Learn – Understand – Undertake ».
 ### Galerie du projet
 
 Les images suivantes présentent différentes vues de la conception réalisée sous KiCad. Elles illustrent le travail de conception et de visualisation du PCB ; elles ne représentent pas une carte physiquement fabriquée.
@@ -192,56 +153,17 @@ The project aims to provide students and electronics enthusiasts with a practica
 | XOR | Output is active when inputs differ |
 | XNOR | Output is active when inputs are identical |
 
-### Identified integrated circuits
+### Main integrated circuits and components
 
-The schematic and component-side drawing identify four CMOS logic integrated circuits:
+The board uses four CMOS integrated circuits: **CD4011 (NAND), CD4071 (OR), CD4081 (AND) and CD4070 (XOR)**. The NOT, BUFFER, NOR and XNOR functions are also included on the educational panel.
 
-| Part number | Function shown |
-|---|---|
-| CD4011 | NAND gates |
-| CD4071 | OR gates |
-| CD4081 | AND gates |
-| CD4070 | XOR gates |
-
-The NOT, BUFFER, NOR and XNOR functions are also displayed on the educational panel.
-
-### Electronic components list
-
-The following bill of materials is compiled from the component references in the electronic schematic and the component-side drawing.
-
-| Description | References | Quantity | Specified characteristics |
-|---|---:|---:|---|
-| CMOS integrated circuit | U1 – CD4071 | 1 | OR gates |
-| CMOS integrated circuit | U2 – CD4070 | 1 | XOR gates |
-| CMOS integrated circuit | U3 – CD4011 | 1 | NAND gates |
-| CMOS integrated circuit | U4 – CD4081 | 1 | AND gates |
-| Resistors | R1 to R23 | 23 | 1 kΩ each |
-| LEDs | D1 to D23 | 23 | Logic-state and power indication; colours not specified |
-| Capacitors | C1 to C4 | 4 | Values not specified in the schematic |
-| Capacitor | C5 | 1 | 10 µF / 16 V |
-| DIP switch | SW1 | 1 | 10 positions |
-| Toggle switch | SW2 | 1 | Type and electrical ratings not specified |
-| Connectors | J1 to J41 | 41 designators | Input, output and power connections |
-
-**Identified quantities:** 4 integrated circuits, 23 resistors, 23 LEDs, 5 capacitors, 1 DIP switch, 1 toggle switch and 41 connector designators.
-
-
+Other main components include a 10-position DIP switch, indicator LEDs, resistors, capacitors and connectors. The schematic identifies the power connections as **VCC / +5 V and GND**.
 
 ### Hardware organization
 
-The component-side drawing shows the board arranged into educational sections:
+The board groups the eight logic functions into separate sections. The DIP switch configures the inputs, while LEDs display the logic states.
 
-- **Logic inputs:** a 10-position DIP switch is provided to configure input states.
-- **Experiment areas:** NOT, BUFFER, AND, OR, NAND, NOR, XOR and XNOR functions are individually labelled.
-- **Visual feedback:** LEDs with associated resistors allow logic states to be observed, with a dedicated power-indicator LED.
-- **Power:** VCC and GND connections are identified, together with a capacitor marked C5.
-- **Integrated circuits:** footprints U1 to U4 are associated with the CD4071, CD4070, CD4011 and CD4081 references.
-
-The panel also displays the OLITECH identity, the “Made in Cameroon” mark and the “Learn – Understand – Undertake” slogan.
-
-### Printed circuit board
-
-The TOP COPPER and BOTTOM COPPER artwork documents both copper sides of the PCB. The drawings show track routing, component pads and four mounting holes located at the board corners. These two artwork files document a two-sided routing design; they do not prove that the board has been physically manufactured.
+The PCB is designed with two copper sides (TOP and BOTTOM) and has four mounting holes. The panel displays the OLITECH identity, the “Made in Cameroon” mark and the “Learn – Understand – Undertake” slogan.
 ### Project gallery
 
 The following images show different views of the KiCad design. They document the PCB design and visualization process; they do not show a physically manufactured board.
