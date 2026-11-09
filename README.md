@@ -28,6 +28,7 @@
   - [Portes logiques étudiées](#portes-logiques-étudiées)
   - [Circuits intégrés envisagés](#circuits-intégrés-envisagés)
   - [Galerie du projet](#galerie-du-projet)
+  - [Documents techniques](#documents-techniques)
   - [État et limites du projet](#état-et-limites-du-projet)
 - [English](#-english)
   - [Overview](#overview)
@@ -35,6 +36,7 @@
   - [Logic gates covered](#logic-gates-covered)
   - [Planned integrated circuits](#planned-integrated-circuits)
   - [Project gallery](#project-gallery)
+  - [Technical documents](#technical-documents)
   - [Project status and limitations](#project-status-and-limitations)
 - [Contact](#contact)
 
@@ -91,6 +93,17 @@ Les images suivantes présentent différentes vues de la conception réalisée s
 | Vue de conception 4 | ![Vue de conception 4](images/banc%20didactique%20%C3%A0%20portes%20logiques%201-2.jpg) |
 | Vue de conception 5 | ![Vue de conception 5](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.jpg) |
 | Vue de conception 6 | ![Vue de conception 6](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.png) |
+
+### Documents techniques
+
+Les documents suivants complètent la présentation de la carte et permettent de consulter les principaux éléments de conception :
+
+| Document | Description |
+|---|---|
+| [Côté composants (PDF)](documents/COTE%20COMPOSANT%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Vue de la face composants du circuit imprimé |
+| [Schéma électronique (PDF)](documents/SCHEMATIC%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Schéma électrique de la carte |
+| [Typon – Bottom Copper (PDF)](documents/TYPON%20BOTTOM%20COPER%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Dessin de la couche cuivre inférieure |
+| [Typon – Top Copper (PDF)](documents/TYPON%20TOP%20COPPER%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Dessin de la couche cuivre supérieure |
 
 ### État et limites du projet
 
@@ -161,6 +174,17 @@ The following images show different views of the KiCad design. They document the
 | Design view 4 | ![Design view 4](images/banc%20didactique%20%C3%A0%20portes%20logiques%201-2.jpg) |
 | Design view 5 | ![Design view 5](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.jpg) |
 | Design view 6 | ![Design view 6](images/banc%20didactique%20%C3%A0%20portes%20logiques-2.png) |
+
+### Technical documents
+
+The following files provide additional design information and allow the main board documentation to be consulted:
+
+| Document | Description |
+|---|---|
+| [Component-side view (PDF)](documents/COTE%20COMPOSANT%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Component-side view of the PCB |
+| [Electronic schematic (PDF)](documents/SCHEMATIC%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Board electrical schematic |
+| [Bottom Copper artwork (PDF)](documents/TYPON%20BOTTOM%20COPER%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Bottom copper-layer artwork |
+| [Top Copper artwork (PDF)](documents/TYPON%20TOP%20COPPER%20BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES.pdf) | Top copper-layer artwork |
 
 ### Project status and limitations
 
